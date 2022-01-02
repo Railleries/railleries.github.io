@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Railleries</title>
+</head>
+<body>
+    <header>
+        <h1><img src="img/logo.jpg" alt="logo"></h1>
+        <h1>Railleries</h1>
+
+        <nav>
+            <div id="premierTrait"></div>
+            <label for="menu-mobile" class="menu-mobile"><i class='bx bx-menu' >Menu</i></label>
+            <input type="checkbox" id="menu-mobile" role="button">
+            <ul>
+                <li class="home"><a href="index.html"><i class='bx bxs-home'></i> Accueil</a></li>
+                <li class="meme"><a href="page.html"><i class='bx bxs-bug'></i> Memes</a></li> 
+                <li class="dcvr"><a href="articles.html"><i class='bx bxs-news' ></i> Articles</a></li>
+                <li class="contact"><a href="https://www.instagram.com/railleries/"><i class='bx bxl-instagram-alt' ></i> Rejoins nous</a></li>
+             </ul>
+        </nav> 
+    </header>
+    <section  class="pre">
+        <div id="premierTrait"></div>
+        <div id="prez">
+            <a href="img/tof2.jpg"><img src="img/tof2.jpg" alt="image"></a>
+            <div class="voting">
+                <button id="a1"><i class='bx bxs-like' ></i></button>
+                <input type="number" id="b1" value="0">
+            </div>
+        </div>
+        <div id="prez">
+            <a href="img/tof1.jpg"><img src="img/tof1.jpg" alt="image"></a>
+            <div class="voting">
+                <button id="a2"><i class='bx bxs-like' ></i></button>
+                <input type="number" id="b2" value="0">
+            </div>
+        </div>
+        <div id="prez">
+            <a href="img/tof3.jpg"><img src="img/tof3.jpg" alt="image"></a>
+            <div class="voting">
+                <button id="a3"><i class='bx bxs-like' ></i></button>
+                <input type="number" id="b3" value="0">
+            </div>
+        </div>
+        <div id="prez">
+            <a href="img/tof4.jpg"><img src="img/tof4.jpg" alt="image"></a>
+            <div class="voting">
+                <button id="a4"><i class='bx bxs-like' ></i></button>
+                <input type="number" id="b4" value="0">
+            </div>
+        </div>
+        <div id="prez">
+            <a href="img/tof5.jpg"><img src="img/tof5.jpg" alt="image"></a>
+            <div class="voting">
+                <button id="a5"><i class='bx bxs-like' ></i></button>
+                <input type="number" id="b5" value="0">
+            </div>
+        </div>
+        <div id="prez">
+            <a href="img/tof6.jpg"><img src="img/tof6.jpg" alt="image"></a>
+            <div class="voting">
+                <button id="a6"><i class='bx bxs-like' ></i></button>
+                <input type="number" id="b6" value="0">
+            </div>
+        </div>
+        <div id="prez">
+            <a href="img/tof7.jpg"><img src="img/tof7.jpg" alt="image"></a>
+            <div class="voting">
+                <button id="a7"><i class='bx bxs-like' ></i></button>
+                <input type="number" id="b7" value="0">
+            </div>
+        </div>
+        <div id="prez">
+            <a href="img/tof8.jpg"><img src="img/tof8.jpg" alt="image"></a>
+            <div class="voting">
+                <button id="a8"><i class='bx bxs-like' ></i></button>
+                <input type="number" id="b8" value="0">
+            </div>
+        </div>
+        <div id="prez">
+            <a href="img/tof9.jpg"><img src="img/tof9.jpg" alt="image"></a>
+            <div class="voting">
+                <button id="a9"><i class='bx bxs-like' ></i></button>
+                <input type="number" id="b9" value="0">
+            </div>
+        </div>
+    </section>
+    <section class="foot">
+        <a href="page.html">1</a>
+        <a id="no" href="page2.html">2</a>
+        <a id="no" href="page3.html">3</a>
+        <a href="page2.html"><i class='bx bx-skip-next'></i></a>
+    </section>
+    <footer>
+        <div id="deuxiemeTrait"></div>
+        <div id="copyrightEtIcons">
+          <div id="copyright">
+            <span>©Railleries2022-All right Reserved </span>
+          </div>
+        </div>
+    </footer>
+
+
+<!--script-->
+    <script type="text/javascript">
+        let a1 = document.querySelector('#a1');
+        let b1 = document.querySelector('#b1');
+
+            a1.addEventListener('click',()=>{
+                b1.value = parseInt(b1.value) + 1;
+                b1.style.color = "#12ff00";
+            })
+    </script>
+    <script type="text/javascript">
+        let a2 = document.querySelector('#a2');
+        let b2 = document.querySelector('#b2');
+
+            a2.addEventListener('click',()=>{
+                b2.value = parseInt(b2.value) + 1;
+                b2.style.color = "#12ff00";
+            })
+    </script>
+    <script type="text/javascript">
+        let a3 = document.querySelector('#a3');
+        let b3 = document.querySelector('#b3');
+
+            a3.addEventListener('click',()=>{
+                b3.value = parseInt(b3.value) + 1;
+                b3.style.color = "#12ff00";
+            })
+    </script>
+    <script type="text/javascript">
+        let a4 = document.querySelector('#a4');
+        let b4 = document.querySelector('#b4');
+
+            a4.addEventListener('click',()=>{
+                b4.value = parseInt(b4.value) + 1;
+                b4.style.color = "#12ff00";
+            })
+    </script>
+    <script type="text/javascript">
+        let a5 = document.querySelector('#a5');
+        let b5 = document.querySelector('#b5');
+
+            a5.addEventListener('click',()=>{
+                b5.value = parseInt(b5.value) + 1;
+                b5.style.color = "#12ff00";
+            })
+    </script>
+    <script type="text/javascript">
+        let a6 = document.querySelector('#a6');
+        let b6 = document.querySelector('#b6');
+
+            a6.addEventListener('click',()=>{
+                b6.value = parseInt(b6.value) + 1;
+                b6.style.color = "#12ff00";
+            })
+    </script>
+    <script type="text/javascript">
+        let a6 = document.querySelector('#a6');
+        let b6 = document.querySelector('#b6');
+
+            a6.addEventListener('click',()=>{
+                b6.value = parseInt(b6.value) + 1;
+                b6.style.color = "#12ff00";
+            })
+    </script>
+    <script type="text/javascript">
+        let a7 = document.querySelector('#a7');
+        let b7 = document.querySelector('#b7');
+
+            a7.addEventListener('click',()=>{
+                b7.value = parseInt(b7.value) + 1;
+                b7.style.color = "#12ff00";
+            })
+    </script>
+    <script type="text/javascript">
+        let a8 = document.querySelector('#a8');
+        let b8 = document.querySelector('#b8');
+
+            a8.addEventListener('click',()=>{
+                b8.value = parseInt(b8.value) + 1;
+                b8.style.color = "#12ff00";
+            })
+    </script>
+    <script type="text/javascript">
+        let a9 = document.querySelector('#a9');
+        let b9 = document.querySelector('#b9');
+
+            a9.addEventListener('click',()=>{
+                b9.value = parseInt(b9.value) + 1;
+                b9.style.color = "#12ff00";
+            })
+    </script>
+
+</body>
+</html>
